@@ -57,7 +57,7 @@ async function startStdio() {
  * Start in HTTP mode (Streamable HTTP transport)
  */
 async function startHttp() {
-  const port = parseInt(process.env.PORT || '3000', 10);
+  const port = parseInt(process.env.PORT || '8000', 10);
   const app = createMcpExpressApp({ host: '0.0.0.0' });
 
   const transports: Record<string, StreamableHTTPServerTransport> = {};

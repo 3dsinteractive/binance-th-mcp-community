@@ -73,7 +73,7 @@ Market data tools (10 tools) work without API keys:
 BINANCE_TH_API_KEY=xxx BINANCE_TH_SECRET_KEY=xxx npx @node2flow/binance-th-mcp --http
 ```
 
-Server starts on port 3000 (configurable via `PORT` env var). MCP endpoint: `http://localhost:3000/mcp`
+Server starts on port 8000 (configurable via `PORT` env var). MCP endpoint: `http://localhost:8000/mcp`
 
 ---
 
@@ -83,7 +83,7 @@ Server starts on port 3000 (configurable via `PORT` env var). MCP endpoint: `htt
 |---|---|---|
 | `BINANCE_TH_API_KEY` | For trading | API key from Binance TH |
 | `BINANCE_TH_SECRET_KEY` | For trading | Secret key for HMAC signing |
-| `PORT` | No | Port for HTTP server (default: `3000`, only with `--http`) |
+| `PORT` | No | Port for HTTP server (default: `8000`, only with `--http`) |
 
 ---
 
